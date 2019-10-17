@@ -197,9 +197,9 @@ class _MyHomePageState extends State<MyHomePage> {
           duration: Duration(milliseconds: 200),
           curve: Curves.easeIn,
           margin: EdgeInsets.only(top: 8, bottom: 32, left: 10),
-          width: headerShouldHide ? 0 : 200,
+          width: headerShouldHide ? 0 : 240,
           child: Text(
-            'Your Notes',
+            'Scrum Notes',
             style: TextStyle(
                 fontFamily: 'ZillaSlab',
                 fontWeight: FontWeight.w700,
